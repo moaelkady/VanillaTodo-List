@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskList</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo image" />
+        <span class="logoTitle">task list</span>
+      </div>
+      <div class="author">
+        <a href="https://moqadi.com" class="authorVisit">visit author</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="inputGroup">
+        <input autofocus type="text" id="taskInput" placeholder="Enter Task" />
+        <button id="taskBtn">Add Task</button>
+        <button id="rmAll">Remove All</button>
+      </div>
+      <div class="taskGroup" id="taskArea">
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
